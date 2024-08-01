@@ -1,0 +1,40 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navbar button {
+  border: none;
+  background-color: #ffffff00;
+  font-size: 26px;
+  font-family: "Ubuntu";
+  font-weight: 500;
+}
+.navbar button:hover {
+  transform: translateX(2px);
+  cursor: pointer;
+}
+.navbar button:active {
+  transform: translateY(2px);
+}
+.btn-browse {
+  font-family: "Roboto";
+  color: red;
+  margin-left: 7vw;
+}
+.btn-search {
+  color: #fff;
+  margin-right: 7vw;
+}
+.space {
+  margin-left: 200px;
+  width: 10px;
+  height: 200vh;
+  background-color: #000;
+}

@@ -1,0 +1,36 @@
+.banner-image {
+  margin: 0 auto;
+  width: 90vw;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-color: #235d9b;
+  position: relative;
+}
+.descript-movie {
+  width: 20vw;
+  font-family: "Ubuntu";
+  color: #fff;
+  position: absolute;
+  left: 2%;
+  bottom: 5%;
+}
+.descript-movie h1 {
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.descript-movie p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+.descript-movie button {
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(105, 105, 105, 0.4);
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
